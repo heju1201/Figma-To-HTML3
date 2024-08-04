@@ -173,7 +173,7 @@ a {
 }
 .service__desc {
   width: 468px;
-  margin: 0 auto;
+  margin: 18px auto 0;
 }
 .service__img {
   width: 570px;
@@ -242,4 +242,50 @@ a {
   height: 60px;
   border-radius: 30px;
   background: #2e80ce;
+}
+/* ===================Work================= */
+.work {
+  background: #f6fbff;
+  padding: 100px 0;
+}
+.work__desc {
+  width: 468px;
+}
+.work__list {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+}
+.work--item {
+  padding: 42px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  background: #fff;
+}
+.work--item:hover {
+  border-color: #2e80ce;
+  /* dịch lên -16px */
+  transform: translateY(-16px);
+  transition: 0.25s;
+}
+.work--item__heading {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.38; /* 138.462% */
+}
+.work--item__link,
+.work--item__desc {
+  margin-top: 28px;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+}
+.work--item__link {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 400;
+  color: #2e80ce;
 }
